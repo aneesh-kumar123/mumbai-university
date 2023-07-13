@@ -1,0 +1,133 @@
+/* /---- blog----/ */
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat', sans-serif;
+} 
+.BLOG{
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   padding-top: 100px ;
+}
+h1{
+   font-size: 36px;
+   font-weight:600 ;
+}
+p{
+   color:#777;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 22px;
+   padding: 10px;
+}
+.row{
+   margin-top: 5%;
+   display: flex;
+   justify-content: space-between;
+}
+.BLOG-col{
+   flex-basis: 31%;
+   background: #f2efd1;
+   border-radius: 10px;
+   margin: 2%;
+   padding: 20px 12px;
+   box-sizing: border-box;
+   transition: 0.5s;
+}
+h3{
+   text-align: center;
+   font-weight: 600;
+   margin: 10px 0;
+}
+.BLOG-col:hover{
+   box-shadow:0 0 20px 0 rgba(126, 108, 108, 0.2);
+}
+
+/* /---- campus ----/ */
+.awards{
+   text-align: center;
+   width: 80%;
+   margin: auto;
+   padding-top: 50px;
+}
+.awards-col{
+   flex-basis: 32%;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   position: relative;
+   overflow: hidden;
+}
+.awards-col img{
+   width: 100%;
+   display: block;
+}
+.layer{
+   background: transparent;
+   height: 100%;
+   width: 100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+}
+
+
+/* /---- Facilitues ----/ */
+.alumni{
+   width: 80%;
+   margin:auto;
+   text-align: center;
+   padding-top: 80px;
+   padding-bottom: 20px;
+}
+.alumni-col{
+   text-align: left;
+   flex-basis: 32%;
+   border-radius: 10px;
+   margin-bottom: 5%;
+   position: relative;
+   overflow: hidden;
+}
+.alumni-col img{
+   height: 71%;
+   width: 80%;
+   display: block;
+   border-radius: 10px;
+}
+.layer1{
+   background: transparent;
+   height: 71%;
+   width: 80%;
+   position:absolute;
+   top: 0;
+   left: 0;
+   transition: 0.5s;
+}
+.layer1:hover{
+   background: rgba(226,0,0,0.4);
+}
+.layer1 h3{
+   width: 100%;
+   font-weight: 500;
+   color: #fff;
+   font-size: 26px;
+   bottom: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   position: absolute;
+   opacity: 0;
+}
+.layer1:hover h3{
+   bottom: 49%;
+   opacity: 1;
+   transition: 0.5s;
+}
+
+.alumni-col p{
+   padding: 0;
+}
+.alumni-col h3{
+   margin-top: 16px;
+   margin-bottom: 15px;
+   text-align: left;
+}
